@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <title>Google API Store Locator</title>
+  <link rel="stylesheet" href="style/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+      <button id="closeButton" class="w3-bar-item w3-button w3-large w3-hide-large" onclick="closeSidebar()">Close &times;</button>
+      <a onclick="addMarkerBtn()" class="w3-bar-item w3-button">Add Store</a>
+      <a onclick="editMarkerBtn()" id="editPlaceBtn" class="w3-bar-item w3-button">Edit Store</a>
+      <a onclick="removeMarkerBtn()" id="deletePlaceBtn" class="w3-bar-item w3-button">Remove Marker</a>
+      <div id="filterDiv">
+        <label>Filter Stores</label>
+        <div id="storeTypeCB">
+          <select id="storeType" onchange="filterChange()" >
+            <option value="" selected >Show All</option>
+            <option value="restaurant">Restaurant</option>
+            <option value="shop">Shop</option>
+            <option value="cafe">Cafe</option>
+            <option value="bar">Bar</option>
+            <option value="pub">Pub</option>
+            <option value="lounge">Lounge</option>
+            <option value="patisserie">Patisserie</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-main" style="margin-left:200px">
+      <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="openSidebar()">&#9776;</button>
+      </div>
+      <div id="map"></div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="js/sideBar.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/storeAdd.js"></script>
+    <script src="js/storeRemove.js"></script>
+    <script src="js/filter.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP_PFduVDkcokCMXVPleEWfyPaQ1gwDxw&libraries=places&callback=initMap">
+    </script>
+  </body>
+</html>

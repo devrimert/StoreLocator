@@ -1,0 +1,163 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "geometry": {
+      "type": "Point",
+      "coordinates": [	27.17680985944239,
+        38.452985751327056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "category": "Restaurant",
+      "hours": "10am - 10pm",
+      "description": "Fresh bread, baked daily. Better, fresher ingredients. All-new sandwiches - and some improved favorites. We've hit refresh on everything.",
+      "name": "Subway Folkart",
+      "phone": "+90 232 445 11 22",
+      "storeid": "01"
+    }
+  },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.15329350628616,
+          38.46759901964206
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Patisserie",
+        "hours": "10am - 6pm",
+        "description": "Come and try our award-winning cakes and pastries. We're part of a larger chain of patisseries and cafes.",
+        "name": "La Vie Nouvelle",
+        "phone": "+905333642524",
+        "storeid": "02"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.143763675007886,
+          38.44089292499147
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Cafe",
+        "hours": "10am - 6pm",
+        "description": "Refresh your day with the bright, tropical flavors of our Star Drink and Kiwi Starfruit Starbucks Refreshers® beverage.",
+        "name": "Starbucks",
+        "phone": "+90 232 412 30 06",
+        "storeid": "03"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.128310029953052,
+          38.42364961282877
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Restaurant",
+        "hours": "10am - 6pm",
+        "description": "A gourmet patisserie that will delight your senses. We're part of a larger chain of patisseries and cafes.",
+        "name": "KFC Konak Pier",
+        "phone": "444 3 555",
+        "storeid": "04"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.175618798601004,
+          38.45571478467688
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Bar",
+        "hours": "10am - 6pm",
+        "description": "Spoil yourself or someone special with our classic pastries. We're part of a larger chain of patisseries and cafes.",
+        "name": "Öküz Folkart",
+        "phone": "+90 551 442 34 17",
+        "storeid": "05"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.084096038596158,
+          38.39813884632216
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Bar",
+        "hours": "11am - 3am",
+        "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of patisseries and cafes.",
+        "name": "La Folie",
+        "phone": "+90 232 224 08 31",
+        "storeid": "06"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.085722426952504,
+          38.397924930289385
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Restaurant",
+        "hours": "3pm - 4am",
+        "description": "Years later, trying to make meyhane popular again!",
+        "name": "Çanlı Meyhane",
+        "phone": "+90 545 864 64 77",
+        "storeid": "07"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.096907282774513,
+          38.40408748729668
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "Restaurant",
+        "hours": "8am - 9:30pm",
+        "description": "Traditional Turkish Drinks & Fish",
+        "name": "Orkinos Restaurant",
+        "phone": "+90 212 853 69 53",
+        "storeid": "08"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.077556398116837,
+          38.39889907965404
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "cafe",
+        "hours": "8am - 9:30pm",
+        "description": "Enjoy freshly brewed coffe, and home baked waffles in our homely cafe. ",
+        "name": "Bart Waffle & Coffee",
+        "phone": "+90 212 865 45 84",
+        "storeid": "09"
+      }
+    }
+  ]
+}
